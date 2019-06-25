@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+*{
+  font-family: 'Comfortaa', cursive;
+}
+.section-header{
+  text-align:center;
+}
+/* .top-head{
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.bio-photo{
+  padding:20px;
+  width:200px;
+  height:100px;
+  background-color:#4f4f4f;
+} 
+.Aboutme{
+  padding:20px;
+  width:200px;
+  height:100px;
+  background-color:#4f4f4f;
+}*/
+.card{
+  background:#f3f8fe;
+  margin:4px;
+  max-width:150px;
+/*   height:80px; */
+  overflow:hidden;
+  padding:5px 10px;
+  box-shadow:0px 0px 15px #d5c5d5;
+}
+.round{
+  border-radius:20px;
+}
+.text-heading{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color:green;
+  font-weight:bolder;
+  font-size:25px;
+}
+.text-container{
+  font-size:15px;
+  padding:10px 3px 7px 3px;
+}
+.container{
+  margin:5px;
+  padding:3px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+}
+.wrap-container{
+  height:100vh;
+  background-color:#e8eaec;
+}
+.nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color:#02b3e4;
+  box-shadow:0px 3px 3px #454545;
+  border-radius:0 15px;
+}
+.nav-bar ul{
+  list-style:none;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+}
+.nav-bar h1 {
+  color:#f3f3f3;
+/*   border:1px solid black; */
+  padding:0px 7px 0px 15px;
+}
+.nav-bar ul li{
+  padding:5px 12px;
+  border-radius:7px;
+  color:blue;
+  background-color:#f7f7f8;
+  margin:0px 9px;
+  align-items:center;
+  display:flex;
+  font-weight:bold;
+  box-shadow:0px 0px 12px #454545;
+
+}
+.nav-bar ul li a{
+  text-decoration:none;
+}
+.section-color{
+  background-color: #e8eaec;
+}
+.section{
+    min-height:40vh;
+}
+.section-header{
+  padding:5px 0px;
+}
+.rounded-button{
+  width:44px;
+  height:44px;
+  color:#c0c1bd;
+  border-radius:22px;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  font-weight:900;
+  font-size:25px;
+  box-sizing:border-box;
+  background-color:blue;
+  box-shadow:0px 0px 9px #151515;
+}
